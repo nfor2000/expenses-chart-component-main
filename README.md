@@ -8,7 +8,6 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 
