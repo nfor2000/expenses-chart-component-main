@@ -20,21 +20,21 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
-
-![](./screenshot.jpg)
+![FireShot Capture 002 - Frontend Mentor - Expenses chart component - 127 0 0 1](https://user-images.githubusercontent.com/124421807/234854142-7655b859-84fa-4210-85ae-86a8211c6684.png)
+![FireShot Capture 001 - Frontend Mentor - Expenses chart component - 127 0 0 1](https://user-images.githubusercontent.com/124421807/234854208-38a0d001-7c48-42dd-8476-a1f5c9b36871.png)
 
 ### Links
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 -Media query
+-Jquery
+-Javascript
+-JSON
 
 ## Author
 
