@@ -1,0 +1,118 @@
+:root{
+    font-size: 62.5%;
+    --softred-:hsl(10, 79%, 65%);
+    --white-:hsl(0,0%,100%);
+    --cream-:hsl(27, 66%, 92%);
+    --cryan-:hsl(186, 34%, 60%);
+    background: hsl(27, 66%, 92%);
+    font-family: 'Ubuntu';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 41.2rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    background: var(--softred-);
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    border-radius: 1.5rem;
+}
+.header h1{
+    color: var(--white-);
+}
+.header h1 span{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.header img{
+    height: 4rem;
+    width: 4rem;
+}
+.expense-chart{
+    background: var(--white-);
+    border-radius: 1.5rem;
+    padding: 4rem;
+}
+.expense-chart h2{
+    font-size: 2rem;
+    letter-spacing: .2rem;
+}
+.barcontainer{
+    height: 200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    align-items: end;
+    padding: 2rem;
+    position: relative;
+    grid-template-columns: repeat(7,1fr);
+    border-bottom: 1px solid ;
+    margin-bottom: 2rem;
+}
+.bar{
+    width: 100%;
+}
+.bar h2{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.barspn{
+    display: block;
+    width: 100%;
+    background-color:var(--softred-) ;
+    border-radius: 5px;
+}
+.amount{
+    position: absolute;
+    bottom: 0;
+    display: none;
+    font-size: 1.4rem;
+}
+.barspn:hover{
+    background:var(--cream-);
+    cursor: pointer;
+}
+.barspn:hover + .amount{
+    display: block;
+}
+.expenseBoard{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+.thismonth h2{
+    text-align: left;
+}
+.thismonth h2 span{
+    font-size: 1rem;
+}
+.lastMonth h2{
+    text-align: right;
+    font-size: 1.4rem;
+}
+.lastMonth h2 span{
+    font-weight: 200;
+}
+.background{
+    background-color: var(--cryan-);
+    pointer-events: none;
+}
